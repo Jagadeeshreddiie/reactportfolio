@@ -265,14 +265,14 @@ a.nav-link:hover {
   gap: 2rem;
   line-height: 3rem;
 }
-.number1 ,.number2{
+.number{
   position: absolute;
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
   left: 1000%;
   top: 0%;
   z-index: 2;
-  color:aquamarine;
+  color:white;
   transition: all .5s ease-in-out;
 }
 /* #education {
@@ -293,18 +293,9 @@ a.nav-link:hover {
 .school-data:hover {
   height: 150px;
 }
-.school-data:hover .number1{
-  left: 0%;
+.school-data:hover .number{
+  left: 3%;
 }
-.number2{
-  left:-1200%;
-  z-index: 1;
-  transition: all .3s ease-in-out;
-}
-.school-data:hover .number2{
-  left: -1%;
-}
-
 .college{
   font-family:"Poppins", sans-serif;
   /* margin-bottom: 10px; */
@@ -316,7 +307,7 @@ a.nav-link:hover {
     /* flex-wrap: nowrap; */
     padding-left: 0;
     padding-right: 0.2rem;
-    width: 100%;
+    width: 95%;
     font-size: 13px;
     backdrop-filter: blur(5px);
   }
@@ -401,12 +392,9 @@ a.nav-link:hover {
     width: 100%;
     margin-bottom: 10px;
   }
-  .number1{
+  .number{
     font-size: 75px;
     color:#fff;
-  }
-  .number2{
-    font-size: 90px;
   }
 }
 
