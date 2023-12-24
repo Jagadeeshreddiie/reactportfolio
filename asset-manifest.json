@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Jagadeeshreddiie/reactportfolio/static/js/main.a44a3558.js",
-    "static/media/mine.png": "/Jagadeeshreddiie/reactportfolio/static/media/mine.4bcedbe347f8187d57bb.png",
-    "index.html": "/Jagadeeshreddiie/reactportfolio/index.html",
-    "main.a44a3558.js.map": "/Jagadeeshreddiie/reactportfolio/static/js/main.a44a3558.js.map"
+    "main.js": "/reactportfolio/static/js/main.e4437a1e.js",
+    "static/media/mine.png": "/reactportfolio/static/media/mine.4bcedbe347f8187d57bb.png",
+    "index.html": "/reactportfolio/index.html",
+    "main.e4437a1e.js.map": "/reactportfolio/static/js/main.e4437a1e.js.map"
   },
   "entrypoints": [
-    "static/js/main.a44a3558.js"
+    "static/js/main.e4437a1e.js"
   ]
 }
