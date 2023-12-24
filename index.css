@@ -33,7 +33,7 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 1600px;
-  margin: .2rem auto 0;
+  margin: .8rem auto 0;
   position: relative;
   /* z-index: 1000; */
 }
@@ -102,7 +102,7 @@ a.nav-link:hover {
   position: absolute;
   left: 0;
   z-index: -100;
-  transform: translate(-50%, -27%);
+  transform: translate(-50%, -25%);
   height: 850px;
   width: 1200px;
   opacity: 0.7;
@@ -265,12 +265,13 @@ a.nav-link:hover {
   gap: 2rem;
   line-height: 3rem;
 }
-.number {
+.number1 ,.number2{
   position: absolute;
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
   left: 1000%;
   top: 0%;
+  z-index: 2;
   color:aquamarine;
   transition: all .5s ease-in-out;
 }
@@ -290,11 +291,20 @@ a.nav-link:hover {
   transition: all 0.5s ease-in-out;
 }
 .school-data:hover {
-  height: 230px;
+  height: 150px;
 }
-.school-data:hover .number {
+.school-data:hover .number1{
   left: 0%;
 }
+.number2{
+  left:-1200%;
+  z-index: 1;
+  transition: all .3s ease-in-out;
+}
+.school-data:hover .number2{
+  left: -1%;
+}
+
 .college{
   font-family:"Poppins", sans-serif;
   /* margin-bottom: 10px; */
@@ -323,7 +333,7 @@ a.nav-link:hover {
   }
   .main-home .home-image img {
     position: absolute;
-    transform: translate(-13%, 25%);
+    transform: translate(-13%, 40%);
     height: 250px;
     z-index: 1;
     width: 370px;
@@ -341,7 +351,7 @@ a.nav-link:hover {
     display: block;
   }
   .nav-link{
-    padding:0 .5rem;
+    padding:0 .8rem;
 
   }
   a.nav-link:hover{
@@ -356,6 +366,9 @@ a.nav-link:hover {
   }
   .design{
     width:10px;
+  }
+  .home-description .design{
+    width:30%;
   }
   .college{
     font-size: 15px;
@@ -387,6 +400,13 @@ a.nav-link:hover {
     /* width:100%; */
     width: 100%;
     margin-bottom: 10px;
+  }
+  .number1{
+    font-size: 75px;
+    color:#fff;
+  }
+  .number2{
+    font-size: 90px;
   }
 }
 
