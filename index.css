@@ -13,9 +13,10 @@ body {
   margin: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+    sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 .nav-header {
   display: block;
@@ -158,11 +159,13 @@ a.nav-link:hover {
   border: 1px solid rgb(2, 224, 228);
   cursor: pointer;
 }
-button{
+.button-about{
+  text-align: center;
   background-color: rgb(234, 93, 11);
   border:none;
   color:#000;
   border-radius: 5px;
+  margin:0 auto;
   width:120px;
   height:50px;
   font-weight: 500;
@@ -170,11 +173,13 @@ button{
   cursor: pointer;
   transition: all 0.2s ease;
 }
-button{
-  cursor: pointer;
-}
+
+
 
 @media only screen and (max-width: 600px) {
+  .nav-menu{
+    width:80%;
+  }
   .main-home {
     display: flex;
     justify-content: flex-start;
@@ -188,7 +193,7 @@ button{
   }
   .main-home .home-image img {
     position: absolute;
-    transform: translate(-10%, 0%);
+    transform: translate(-13%, 20%);
     height: 250px;
     z-index: 1;
     width: 370px;
@@ -221,12 +226,9 @@ button{
     gap: 3rem;
     flex-direction: row;
   }
- .home-image img{
-    /* z-index: 0; */
-    /* display: none; */
-    top:0;
-    bottom: 0;
-  }
+ .mobile{
+  text-align: center;
+ }
   .button-about{
     z-index:1000;
   }
