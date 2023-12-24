@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/Jagadeeshreddiie/reactportfolio.git/static/js/main.eee5a2b9.js",
-    "static/media/mine.png": "/Jagadeeshreddiie/reactportfolio.git/static/media/mine.4bcedbe347f8187d57bb.png",
-    "index.html": "/Jagadeeshreddiie/reactportfolio.git/index.html",
-    "main.eee5a2b9.js.map": "/Jagadeeshreddiie/reactportfolio.git/static/js/main.eee5a2b9.js.map"
+    "main.js": "/Jagadeeshreddiie/reactportfolio/static/js/main.a44a3558.js",
+    "static/media/mine.png": "/Jagadeeshreddiie/reactportfolio/static/media/mine.4bcedbe347f8187d57bb.png",
+    "index.html": "/Jagadeeshreddiie/reactportfolio/index.html",
+    "main.a44a3558.js.map": "/Jagadeeshreddiie/reactportfolio/static/js/main.a44a3558.js.map"
   },
   "entrypoints": [
-    "static/js/main.eee5a2b9.js"
+    "static/js/main.a44a3558.js"
   ]
 }
