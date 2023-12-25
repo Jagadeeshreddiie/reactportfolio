@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.js": "/reactportfolio/static/js/main.acdc9582.js",
+    "main.js": "/reactportfolio/static/js/main.9d07e109.js",
     "static/media/mine.png": "/reactportfolio/static/media/mine.4bcedbe347f8187d57bb.png",
-    "static/media/mine1.jpg": "/reactportfolio/static/media/mine1.e23d449a791552e7a8a7.jpg",
+    "static/media/python.png": "/reactportfolio/static/media/python.b45ae5f73d22d8e179a4.png",
+    "static/media/smartnet.png": "/reactportfolio/static/media/smartnet.9d19c9c3d845209cb64b.png",
+    "static/media/digital-cookbook.png": "/reactportfolio/static/media/digital-cookbook.80d89876c36fa1eda66a.png",
+    "static/media/udemy.png": "/reactportfolio/static/media/udemy.8c0d032d753c822703b4.png",
+    "static/media/wipro.png": "/reactportfolio/static/media/wipro.c1790eb77746597395f1.png",
+    "static/media/kaggle.png": "/reactportfolio/static/media/kaggle.aedd6d092cbae6ab79a9.png",
+    "static/media/blog.png": "/reactportfolio/static/media/blog.781f43682d5b62607477.png",
+    "static/media/internship.png": "/reactportfolio/static/media/internship.ae739aa4e8a1e876e822.png",
     "static/media/mongodb.png": "/reactportfolio/static/media/mongodb.444f3adcb6fd1d5e750c.png",
     "index.html": "/reactportfolio/index.html",
-    "main.acdc9582.js.map": "/reactportfolio/static/js/main.acdc9582.js.map"
+    "main.9d07e109.js.map": "/reactportfolio/static/js/main.9d07e109.js.map"
   },
   "entrypoints": [
-    "static/js/main.acdc9582.js"
+    "static/js/main.9d07e109.js"
   ]
 }
