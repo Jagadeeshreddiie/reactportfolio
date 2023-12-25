@@ -65,6 +65,7 @@ a.nav-link:hover {
   height: 25px;
   color: black;
   letter-spacing: 2px;
+  font-weight: 660;
   /* transform: translateY(-15%); */
 }
 
@@ -116,7 +117,7 @@ a.nav-link:hover {
   font-size: 80px;
   letter-spacing: 1rem;
   font-weight: 1000;
-  font-family: "Montserrat", sans-serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-transform: uppercase;
   animation-name: text;
   animation-duration: 1s;
@@ -172,17 +173,22 @@ a.nav-link:hover {
   text-align: center;
   background-color: rgb(234, 93, 11);
   border: none;
-  color: #000;
+  color: #fff;
   border-radius: 5px;
   margin: 0 auto;
   width: 120px;
   height: 50px;
-  font-weight: 500;
+  /* font-weight: 500; */
   letter-spacing: 1.2px;
   cursor: pointer;
   transition: all 0.2s ease;
   animation-name: fade;
   animation-duration: 4s;
+}
+.button-about:hover{
+  background-color: rgb(234, 93, 11,0.8);
+  transform: translateY(-12%);
+  font-weight: 700;
 }
 
 /*  " certificate component css" */
@@ -256,6 +262,9 @@ a.nav-link:hover {
 
 /*  education */
 
+#education:hover{
+  background-color: transparent;
+}
 .school-card {
   position: relative;
   margin-top: 30px;
@@ -269,7 +278,7 @@ a.nav-link:hover {
   position: absolute;
   font-size: 100px;
   font-family: Arial, Helvetica, sans-serif;
-  left: 1000%;
+  left: -100%;
   top: 0%;
   z-index: 2;
   color:white;
@@ -285,23 +294,42 @@ a.nav-link:hover {
   padding: 20px;
   text-align: left;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   gap: 2rem;
   transition: all 0.5s ease-in-out;
 }
 .school-data:hover {
   height: 150px;
+  background-color: rgba(31, 31, 83, 0.4);
 }
 .school-data:hover .number{
   left: 3%;
 }
 .college{
-  font-family:"Poppins", sans-serif;
+  font-family: 'Raleway', sans-serif;;
   /* margin-bottom: 10px; */
 
 }
 
+/* skills container */
+
+.skills-container{
+  display:grid;
+  list-style-type: none;
+  place-items: center;
+  grid-template-columns: repeat(4,1fr);
+  gap:3rem;
+  height:60vh;
+}
+.skills-container li{
+  transition: all 0.5s ease-in-out;
+}
+.skills-container li:hover{
+  scale:1.2;
+  background-color: transparent;
+  text-shadow: 1px 1px 50px rgba(255, 255, 255, 0.2);
+}
 @media only screen and (max-width: 600px) {
   .nav-menu {
     /* flex-wrap: nowrap; */
@@ -338,15 +366,13 @@ a.nav-link:hover {
     margin: 0;
     font-size: 40px;
   }
-  a.nav-link {
-    display: block;
-  }
+  
   .nav-link{
     padding:0 .8rem;
 
   }
   a.nav-link:hover{
-    letter-spacing: normal;
+    letter-spacing:normal;
   }
   .home-description h4 {
     font-size: 10px;
@@ -395,6 +421,11 @@ a.nav-link:hover {
   .number{
     font-size: 75px;
     color:#fff;
+  }
+  .skills-container{
+    grid-template-columns: repeat(3,1fr);
+    height:fit-content;
+    gap:0rem;
   }
 }
 
