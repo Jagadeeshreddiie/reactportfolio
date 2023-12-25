@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/jagadeeshreddiie.github.io/reactportfolio/static/js/main.0194eea5.js",
-    "static/media/mine.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/mine.4bcedbe347f8187d57bb.png",
-    "static/media/mine1.jpg": "/jagadeeshreddiie.github.io/reactportfolio/static/media/mine1.e23d449a791552e7a8a7.jpg",
-    "static/media/mongodb.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/mongodb.444f3adcb6fd1d5e750c.png",
-    "index.html": "/jagadeeshreddiie.github.io/reactportfolio/index.html",
-    "main.0194eea5.js.map": "/jagadeeshreddiie.github.io/reactportfolio/static/js/main.0194eea5.js.map"
+    "main.js": "/Jagadeeshreddiie.github.io/reactportfolio/static/js/main.dd7c4a55.js",
+    "static/media/mine.png": "/Jagadeeshreddiie.github.io/reactportfolio/static/media/mine.4bcedbe347f8187d57bb.png",
+    "static/media/mine1.jpg": "/Jagadeeshreddiie.github.io/reactportfolio/static/media/mine1.e23d449a791552e7a8a7.jpg",
+    "static/media/mongodb.png": "/Jagadeeshreddiie.github.io/reactportfolio/static/media/mongodb.444f3adcb6fd1d5e750c.png",
+    "index.html": "/Jagadeeshreddiie.github.io/reactportfolio/index.html",
+    "main.dd7c4a55.js.map": "/Jagadeeshreddiie.github.io/reactportfolio/static/js/main.dd7c4a55.js.map"
   },
   "entrypoints": [
-    "static/js/main.0194eea5.js"
+    "static/js/main.dd7c4a55.js"
   ]
 }
