@@ -423,9 +423,14 @@ a.nav-link:hover {
     color:#fff;
   }
   .skills-container{
+    margin:0 auto;
+    /* place-items: center; */
+    padding: 0;
+    max-width:400px;
+    /* transform: translate(-50%,-50%); */
     grid-template-columns: repeat(3,1fr);
     height:fit-content;
-    gap:0rem;
+    gap:2rem;
   }
 }
 
