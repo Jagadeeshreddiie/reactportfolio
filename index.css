@@ -105,10 +105,10 @@ a.nav-link:hover {
   position: absolute;
   left: 0;
   z-index: -100;
-  transform: translate(-50%, -25%);
-  height: 850px;
-  width: 1200px;
-  opacity: 0.7;
+  transform: translate(-37%, 50%);
+  height: 250px;
+  width: 250px;
+  opacity: .5;
 
   filter: drop-shadow(2px 0px 10px #0d6df3);
 }
@@ -429,8 +429,9 @@ form input,textarea{
   grid-template-columns: 1fr 1fr;
   gap:0;
 }
-.footer form input{
-  width:100%;
+.footer form input,textarea{
+  width:200%;
+  max-width: 300px;
 }
 .footer-info{
   display: flex;
@@ -464,7 +465,7 @@ form input,textarea{
   flex-direction: column;
 }
 .img-box img{
-  width:80;
+  width:80%;
   height:350px;
   margin-bottom: 20px;
   border-radius: 8px;
@@ -520,12 +521,11 @@ form input,textarea{
   }
   .main-home .home-image img {
     position: absolute;
-    transform: translate(-13%, 40%);
+    transform: translate(-49%, 10%);
     height: 250px;
     z-index: 1;
-    width: 370px;
-    opacity: 0.7;
-    filter: drop-shadow(1px 0px 0px #f3f30d);
+    width: 250px;
+    mix-blend-mode: multiply;
   }
   .home-description {
     padding-left: 20px;
@@ -613,6 +613,12 @@ form input,textarea{
     width:10%;
     transform:translateX(-30%);
   }
+  .about-card{
+    width:100%;
+  }
+  .about-card .design{
+    width:30%;
+  }
   .button-close:hover{
     transform: none;
   }
@@ -643,6 +649,9 @@ form input,textarea{
   }
   .footer-container{
     margin-bottom: 10px;
+  }
+  .footer form input,textarea{
+    width:100%;
   }
   .project-container{
     grid-template-columns: 1fr;
