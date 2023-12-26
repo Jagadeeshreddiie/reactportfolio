@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/reactportfolio/static/js/main.fecde390.js",
-    "static/media/python.png": "/reactportfolio/static/media/python.b45ae5f73d22d8e179a4.png",
-    "static/media/smartnet.png": "/reactportfolio/static/media/smartnet.9d19c9c3d845209cb64b.png",
-    "static/media/digital-cookbook.png": "/reactportfolio/static/media/digital-cookbook.80d89876c36fa1eda66a.png",
-    "static/media/udemy.png": "/reactportfolio/static/media/udemy.8c0d032d753c822703b4.png",
-    "static/media/reddy.png": "/reactportfolio/static/media/reddy.7516992bf38ff8da25d2.png",
-    "static/media/wipro.png": "/reactportfolio/static/media/wipro.c1790eb77746597395f1.png",
-    "static/media/kaggle.png": "/reactportfolio/static/media/kaggle.aedd6d092cbae6ab79a9.png",
-    "static/media/blog.png": "/reactportfolio/static/media/blog.781f43682d5b62607477.png",
-    "static/media/internship.png": "/reactportfolio/static/media/internship.ae739aa4e8a1e876e822.png",
-    "static/media/mongodb.png": "/reactportfolio/static/media/mongodb.444f3adcb6fd1d5e750c.png",
-    "index.html": "/reactportfolio/index.html",
-    "main.fecde390.js.map": "/reactportfolio/static/js/main.fecde390.js.map"
+    "main.js": "/jagadeeshreddiie.github.io/reactportfolio/static/js/main.d80ba68d.js",
+    "static/media/python.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/python.b45ae5f73d22d8e179a4.png",
+    "static/media/smartnet.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/smartnet.9d19c9c3d845209cb64b.png",
+    "static/media/digital-cookbook.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/digital-cookbook.80d89876c36fa1eda66a.png",
+    "static/media/udemy.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/udemy.8c0d032d753c822703b4.png",
+    "static/media/reddy.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/reddy.7516992bf38ff8da25d2.png",
+    "static/media/wipro.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/wipro.c1790eb77746597395f1.png",
+    "static/media/kaggle.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/kaggle.aedd6d092cbae6ab79a9.png",
+    "static/media/blog.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/blog.781f43682d5b62607477.png",
+    "static/media/internship.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/internship.ae739aa4e8a1e876e822.png",
+    "static/media/mongodb.png": "/jagadeeshreddiie.github.io/reactportfolio/static/media/mongodb.444f3adcb6fd1d5e750c.png",
+    "index.html": "/jagadeeshreddiie.github.io/reactportfolio/index.html",
+    "main.d80ba68d.js.map": "/jagadeeshreddiie.github.io/reactportfolio/static/js/main.d80ba68d.js.map"
   },
   "entrypoints": [
-    "static/js/main.fecde390.js"
+    "static/js/main.d80ba68d.js"
   ]
 }
