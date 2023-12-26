@@ -501,7 +501,8 @@ form input,textarea{
 }
 
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:700px) {
+  
   .nav-menu {
     /* flex-wrap: nowrap; */
     padding-left: 0;
@@ -671,6 +672,7 @@ form input,textarea{
     height: 450px;
     overflow: scroll;
   }
+  
 }
 
 @keyframes text {
@@ -750,3 +752,5 @@ form input,textarea{
     transform: translateX(0);
   }
 }
+
+
