@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/reactportfolio/static/js/main.fecde390.js",
+    "main.js": "/reactportfolio/static/js/main.f14c6b8f.js",
     "static/media/python.png": "/reactportfolio/static/media/python.b45ae5f73d22d8e179a4.png",
     "static/media/smartnet.png": "/reactportfolio/static/media/smartnet.9d19c9c3d845209cb64b.png",
     "static/media/digital-cookbook.png": "/reactportfolio/static/media/digital-cookbook.80d89876c36fa1eda66a.png",
@@ -12,9 +12,9 @@
     "static/media/internship.png": "/reactportfolio/static/media/internship.ae739aa4e8a1e876e822.png",
     "static/media/mongodb.png": "/reactportfolio/static/media/mongodb.444f3adcb6fd1d5e750c.png",
     "index.html": "/reactportfolio/index.html",
-    "main.fecde390.js.map": "/reactportfolio/static/js/main.fecde390.js.map"
+    "main.f14c6b8f.js.map": "/reactportfolio/static/js/main.f14c6b8f.js.map"
   },
   "entrypoints": [
-    "static/js/main.fecde390.js"
+    "static/js/main.f14c6b8f.js"
   ]
 }
